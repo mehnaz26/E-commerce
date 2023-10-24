@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'poppins' 'sans-serif';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'poppins' 'sans-serif';
+}
+a a:hover{
+    text-decoration: none;
+
+}
+.header{
+    width: 100%;
+    background: #fff;
+}
+.header .navbar-brand{
+    font-size: 24px;
+    font-weight:bold;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #000;
+
+}
+.header .navbar .nav-item .nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin: 0px 15px 0px 15px;
+
+}
+.header .navbar .nav-item .nav-link:hover, 
+.header .navbar .nav-item .nav-link:focus{
+    color: #F2F0F1;
+}
+
+
+
+
+.header .navbar .d-flex .btn-success{
+    padding: 10px 80px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #aea2a2;
+    background: #f0f0f0;
+    border: none;
+    transition:1s;
+
+}
+
+.header .navbar .d-flex .btn-success:hover{
+    color: #aea2a2;
+    background: #f0f0f0;
+    border: 1px solid #fff;
+}
+
+/* banner code start */
+
+
+.banner{
+    background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 40px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.inner-banner h2{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #000;
+}
+
+.inner-banner p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    color: #000;
+}
+
+.banner .inner-banner .btn-success{
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #000;
+    border: none;
+    transition:1s;
+
+}
+
+.banner .inner-banner .btn-success:hover{
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.inner-banner .count h3{
+    padding: 10px 0px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #000;
+}
+
+.inner-banner .count p{
+    font-size: 16px;
+    font-weight:400;
+    line-height:26px;
+    color: #000;
+}
+
+/* arrival code strat */
+.arrival{
+    width: 100%;
+    padding: 80px 0px;
+}
+.arrival h1{
+ color: #000;
+ font-size: 48px;
+ font-weight: bold;
+ line-height: 58px;
+ text-transform: uppercase;
+ text-align: center;
+ margin: 0px 0px 40px;
+
+}
+.arrival .inner-arrival{
+    width: 100%;
+    padding: 20px 20px; 
+    background: #F2F0F1;
+    border-radius: 10px;
+}
+.arrival .inner-arrival img{
+    width:100%;
+    height: auto;
+}
+.arrival .inner-arrival:hover{
+    background: #fff;
+    box-shadow: 0px 20px 40px #aea2a2;
+}
+
+.arrival .inner-content h4{
+    color: #000;
+    font-size: 20px;
+    font-weight:500;
+    line-height:30px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.arrival .inner-content p{
+    color: #000;
+    font-size: 24px;
+    font-weight:700;
+    line-height:34px;
+    text-align:center;
+    padding:0px;
+    
+}
+
+
+
+
+/* top-selling code strat */
+.top-selling{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+.top-selling h1{
+ color: #000;
+ font-size: 48px;
+ font-weight: bold;
+ line-height: 58px;
+ text-transform: uppercase;
+ text-align: center;
+ margin: 0px 0px 40px;
+
+}
+.top-selling .inner-top-selling{
+    width: 100%;
+    padding: 20px 20px; 
+    background: #F2F0F1;
+    border-radius: 10px;
+}
+.top-selling .inner-top-selling img{
+    width:100%;
+    height: auto;
+}
+.top-selling .inner-top-selling:hover{
+    background: #fff;
+    box-shadow: 0px 20px 40px #aea2a2;
+}
+
+.top-selling .inner-content h4{
+    color: #000;
+    font-size: 20px;
+    font-weight:500;
+    line-height:30px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.top-selling .inner-content p{
+    color: #000;
+    font-size: 24px;
+    font-weight:700;
+    line-height:34px;
+    text-align:center;
+    
+}
+
+
+
+/* style code strat */
+.style {
+    width: 100%;
+    padding: 80px 0px;
+    background: #F2F0F1;
+
+}
+.style  h1{
+ color: #000;
+ font-size: 40px;
+ font-weight: bold;
+ line-height: 50px;
+ text-transform: uppercase;
+ text-align: center;
+ margin: 0px 0px 40px;
+
+}
+
+
+/* customer code strat */
+.customer {
+    width: 100%;
+    padding: 80px 0px;
+  
+
+}
+
+.customer h1{
+ color: #000;
+ font-size: 40px;
+ font-weight: bold;
+ line-height: 50px;
+ text-align: center;
+ text-transform: uppercase;
+ margin: 0px 0px 40px;
+
+
+}
+.customer .inner-customer {
+    padding: 20px;
+    border: 1px solid #aea2a2;
+
+}
+.customer .inner-customer .star{
+    color: #FFC633;
+    font-size:12px;
+    font-weight:500;
+    line-height:22px;
+    margin: 0px;
+    padding: 0px;
+}
+.customer .inner-customer h4{
+    color: #000;
+    font-size:16px;
+    font-weight:600;
+    line-height:26px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.customer .inner-customer p{
+    color: #000;
+    font-size:12px;
+    font-weight:300;
+    line-height:22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.offer {
+    width: 100%;
+    padding: 80px 0px;
+
+
+}
+.offer .wrapper {
+
+    padding: 20px;
+    background: #000;
+    border-radius: 5px;
+} 
+
+.offer .wrapper h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 20px;
+   
+
+}
+
+.offer .inner-offer{
+    padding: 20px 0px;
+
+}
+
+
+.offer .inner-offer .btn-success{
+    padding: 10px 5px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background: #fff;
+    border: none;
+    transition:1s;
+
+}
+
+.offer .inner-offer .btn-success:hover{
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+}
